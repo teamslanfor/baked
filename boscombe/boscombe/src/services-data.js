@@ -1,0 +1,21 @@
+// Menu sections – the menu couldn't be read from Facebook, so these are typical bakery & café ranges. CONFIRM with the client.
+module.exports = [
+  { id: 'bread', icon: 'leaf', img: 'bread-loaves', alt: 'Rustic loaves of fresh bread', title: 'Fresh Bread', price: '',
+    intro: 'Loaves baked fresh for your table, from crusty white to seeded and wholemeal.',
+    points: ['Crusty loaves', 'Seeded and wholemeal', 'Rolls and baps', 'Baked fresh', 'Get in early for the best choice'] },
+  { id: 'pastries', icon: 'sparkle', img: 'croissants', alt: 'Golden croissants dusted with flour', title: 'Pastries & Morning Bakes', price: '',
+    intro: 'Flaky, buttery and best enjoyed warm with a coffee.',
+    points: ['Croissants', 'Pastries and Danishes', 'Cinnamon and fruit bakes', 'Sausage rolls and savoury bakes', 'Perfect with a coffee'] },
+  { id: 'cakes', icon: 'heart', img: 'raspberry-cake', alt: 'Slice of layered raspberry cake', title: 'Cakes & Sweet Treats', price: '',
+    intro: 'Slices, traybakes, cookies and brownies, made to brighten your day.',
+    points: ['Cake slices', 'Brownies and traybakes', 'Cookies', 'Cupcakes', 'Something different most days'] },
+  { id: 'coffee', icon: 'flame', img: 'coffee-cheers', alt: 'Friends holding lattes', title: 'Coffee & Drinks', price: '',
+    intro: 'Good coffee to stay or take away, plus teas, hot chocolate and cold drinks.',
+    points: ['Espresso, flat whites and lattes', 'Teas', 'Hot chocolate', 'Cold drinks', 'Eat in or take away'] },
+  { id: 'brunch', icon: 'home', img: 'brunch-egg-toast', alt: 'Fried egg on toast', title: 'Breakfast & Lunch', price: '',
+    intro: 'Something tasty to eat in or take away, from breakfast to lunchtime.',
+    points: ['Breakfast bites', 'Toasties and sandwiches', 'Savoury bakes', 'Eat in or take away', 'Ask about today’s specials'] },
+  { id: 'orders', icon: 'calendar', img: 'chocolate-cake', alt: 'Chocolate celebration cake', title: 'Celebration Cakes & Orders', price: '',
+    intro: 'Birthday cakes, celebration bakes and bigger orders for events and offices, made to order.',
+    points: ['Birthday and celebration cakes', 'Cupcake and treat boxes', 'Office and event orders', 'Larger bread and pastry orders', 'Tell us your date and ideas'] },
+];

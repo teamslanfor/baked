@@ -1,0 +1,12 @@
+{
+  "name": "baked-boscombe",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Website for Baked Boscombe, Bournemouth",
+  "scripts": {
+    "build": "node build.js",
+    "start": "node server.js",
+    "dev": "npm run build && node server.js"
+  },
+  "engines": { "node": ">=18" }
+}
